@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="wrapper footer-wrapper">
+    <div class="footer-item">
+      <p>Copyright © 2017-2020 YimanBit. </p>
+    </div>
+    <div class="footer-item">
+      <a href="{{ "/feed.xml" | relative_url }}" class="u-email">RSS</a></li>
+    </div>
+    <div class="footer-item">
+      {%- if site.email -%}
+      <a class="u-email" href="mailto:{{ site.email }}">联系我们</a>
+      {%- endif -%}
+    </div>
+  </div>
+</footer>
